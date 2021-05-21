@@ -1,0 +1,127 @@
+*, ::before, ::after {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background: #333;
+    font-family: Arial, Helvetica, sans-serif;
+    height: 100vh;
+    background: url('ressources/meteo.gif');
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    overflow-x: hidden;
+}
+
+.container-first {
+    position: absolute;
+    top: 30%;
+    left: 5%;
+}
+
+h1 {
+    text-transform: uppercase;
+    font-size: 110px;
+    color: #f1f1f1;
+    font-family: Abril fatface, sans-serif;
+}
+
+h3  {
+    text-transform: uppercase;
+    font-size: 5px;
+    color: #f1f1f1;
+    font-family: Abril fatface, sans-serif;
+}
+.container-btns {
+    position: relative;
+    top: 50px;
+}
+.btn-mod {
+    
+    border: 5px solid #f1f1f1;
+    outline: none;
+    background: transparent;
+    font-size: 20px;
+    padding: 5px;
+    width: 300px;
+    color: #f1f1f1;
+    cursor: pointer;
+   
+}
+
+.btn-mod:hover {
+    transition: all 0.3s ease-in-out;
+    background: #ebee2b;
+    color: #333;
+}
+.lignes {
+    position: absolute;
+    top: 6%;
+    left: 5%;
+}
+.l1 {
+    display: block;
+    flex-direction:initial;
+    justify-content: center;
+    width: 250px;
+    height: 3px;
+    background: #f1f1f1;
+    border-radius: 5px;
+}
+.l2 {
+    display: block;
+    flex-direction:initial;
+    justify-content: center;
+    width: 140px;
+    height: 3px;
+    background: #f1f1f1;
+    border-radius: 5px;
+    position: relative;
+    top: 20px;
+}
+
+
+.logo {
+    position: absolute;
+    right: 2.9%;
+    top: 4%;
+    width: 80px;
+    height: 80px;
+    cursor: pointer;
+}
+.medias {
+    list-style-type: none;
+    position: absolute;
+    right: 3.3%;
+    top: 50%;
+    transform: translateY(-50%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.bulle {
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    border: 1px solid #f1f1f1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 10px 0;
+    background: #f1f1f1;
+    cursor: pointer;
+    position: relative;
+}
+
+.logo-medias {
+
+    width: 40px;
+    height: 40px;
+}
+
+.columnspan_16_of_16 copyright space_top{
+    position: relative;
+}

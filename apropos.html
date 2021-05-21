@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>A propos</title>
+<style>
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  margin: 0;
+}
+
+html {
+  box-sizing: border-box;
+}
+
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+
+.column {
+  float: left;
+  width: 20%;
+  margin-bottom: 16px;
+  padding: 0 8px;
+}
+
+.card {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  margin: 8px;
+}
+
+.about-section {
+  padding: 50px;
+  text-align: center;
+  background-color: #474e5d;
+  color: white;
+  background-image: linear-gradient(rgba(44, 46, 189, 0.5), rgba(15, 15, 15, 0.5)),
+                  url("images/météognss.PNG");
+}
+
+.container {
+  padding: 0 16px;
+}
+
+.container::after, .row::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+.title {
+  color: grey;
+}
+
+.button {
+  border: none;
+  outline: 0;
+  display: inline-block;
+  padding: 8px;
+  color: white;
+  background-color: #000;
+  text-align: center;
+  cursor: pointer;
+  width: 100%;
+}
+
+.button:hover {
+  background-color: #555;
+}
+
+@media screen and (max-width: 650px) {
+  .column {
+    width: 100%;
+    display: block;
+  }
+}
+</style>
+</head>
+<body>
+
+<div class="about-section">
+  <h1>Qui nous sommes ?</h1>
+  <p>Nous sommes une équipe de jeunes développeurs très motivé par les technologies spatiales.</p>
+   <p>Etant actuellement étudiants en Master 2 GNSS (Global Navigation Satellite System ) au Centre Régional Africain des Sciences et Technologie de l'Esapce.</p>
+  <p>Nous souhaitons developper des applications SIG WEB, afin d'aider la communauté pour une bonne prise de décisions. </p>
+  <button> 
+    <a href="index.html">Revenir à l'Accueil</a>
+</button>
+</div>
+
+<h2 style="text-align:center">Notre équipe</h2>
+<div class="row">
+  <div class="column">
+    <div class="card">
+      <div class="container">
+        <h2>Amadou MBAYE</h2>
+        <img src="images/amadou.jpg" alt="ame" width="90" height="90">
+        <p class="title">Développeur de l'interface</p>
+        <p>Je suis de nationalité Sénégalaise.Je suis actuellement étudiant en Master 2 au CRASTE-LF et à l'IAV Hassan 2.</p>
+        <p>mbaye.amadou@ugb.edu.sn</p>
+        <p><button class="button">Contact </button></p>
+      </div>
+    </div>
+  </div>
+  
+  <div class="column">
+    <div class="card">   
+      <div class="container">
+        <h2>Hassan Hanni</h2>
+        <img src="images/hanni.jpeg" alt="ame" width="90" height="90">
+        <p class="title">Développeur de la partie localisation</p>
+        <p>Je suis de nationalité Marocaine.Actuelllement Etudiant à l'IAV Hassan 2 et au CRASTE-LF</p>
+        <p>hassanhanni96@gmail.com</p>
+        <p><button class="button">Contact</button></p>
+      </div>
+    </div>
+ </div>
+
+ <div class="column">
+    <div class="card">
+      <div class="container">
+        <h2>Armel Mbegha</h2>
+        <img src="images/armel.jpg" alt="ame" width="90" height="70">
+        <p class="title">Développeur de la partie météo</p>
+        <p>je suis de nationalité Gabonaise.Actuelllement Etudiant en Master 2 GNSS à l'IAV Hassan 2 et au CRASTE-LF</p>
+        <p>armelmbegha@gmail.com</p>
+        <p><button class="button">Contact</button></p>
+      </div>
+    </div>
+ </div>
+
+  
+  <div class="column">
+    <div class="card">
+      <div class="container">
+        <h2>Zakaria Haraz</h2>
+        <img src="images/zakaria.jpeg" alt="ame" width="90" height="90">
+        <p class="title">Développeur de la partie météo</p>
+        <p>Je suis de nationalité Marocaine.Etudiant à l'IAV Hassan 2 et au CRASTE-LF de Rabat</p>
+        <p>harazzaki97@gmail.com</p>
+        <p><button class="button">Contact</button></p>
+      </div>
+    </div>
+  </div>
+</div>
+
+</body>
+</html>
